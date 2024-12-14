@@ -95,8 +95,12 @@
         width: 65%; 
         height: 55%; 
         margin-top: 1em;
-        z-index: 1;
+        z-index: 2;
       }
+    .iframe {
+      z-index: 2;
+    }
+
       .container1{
         text-align: justify;
         width: 98%;
@@ -154,7 +158,11 @@
     
     <div class="big-container">
     
-      <iframe src="https://player.twitch.tv/?channel=clix&parent=trenchjimmy.live" frameborder="0" allowfullscreen="false" scrolling="no" height="378" width="620"></iframe>
+      <iframe class="iframe" src="https://player.twitch.tv/?channel=clix&parent=trenchjimmy.live" frameborder="0" allowfullscreen="false" scrolling="no" height="auto" width="70%"></iframe>
+      <p>Stream not loading? Try
+        <a href="twitch.tv/clix">Twitch</a>
+        directly.
+      </p>
 
     </div>
     <div class="container1">
