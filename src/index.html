@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <title>$SAYO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+        font-family: "Parkinsans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: -1;
+      }
+      body::before,
+      body::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0, 4;
+      }
+      body::before {
+        clip-path: circle(30% at left 20%);
+        background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0, 131) 100.2%);
+      }
+      body::after {
+        clip-path: circle(25% at right 80%);
+        background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0, 131) 100.2%);
+      }
+
+      header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 98%;
+        padding: 5px 5px;
+        text-align: center;
+        min-height: 40px;
+        background: rgba(255, 255, 255, 0.09);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        font-size: 2em;
+        position: relative;
+        color: #901169;
+      }
+
+      .header-content {
+        display: flex;
+        align-items: center; 
+        justify-content: center; 
+        width: 100%;
+        position: relative; 
+      }
+      .header-content a {
+        position: absolute;
+        right: 20px; 
+        text-decoration: none; 
+      }
+
+      .header-content p {
+        margin: 0; 
+        font-size: 0.5em; 
+        color: rgb(255, 255, 255); 
+        padding: 0.2em 0.4em; 
+        border: 2px solid black; 
+        border-radius: 8px; 
+        background-color: transparent; 
+        cursor: pointer; 
+        transition: all 0.3s ease; 
+      }
+
+      .header-content span {
+        margin: 0 auto; 
+      }
+
+      .big-container {
+        display: flex; 
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center; 
+        width: 65%; 
+        height: 55%; 
+        margin-top: 1em;
+        z-index: 1;
+      }
+      .container1{
+        text-align: justify;
+        width: 98%;
+        padding: 5px 5px;
+        min-height: 40px;
+        background: rgba(255, 255, 255, 0.09);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        z-index: 2;
+        color: whitesmoke;
+        padding: 1em;
+        margin-bottom: 1em;
+      }
+
+      .social-box{
+        margin-top: 1em;
+        background: rgba(255, 255, 255, 0.09);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        padding-top: 0.4em;
+        padding-bottom: 0.08em;
+        padding-left: 0.4em;
+        padding-right: 0.4em;
+        z-index: 2;
+      }
+
+      .social-box img {
+        width: 36px;
+        height: 36px;
+        filter: invert(1);
+        z-index: 1;
+      }
+
+      a{
+        text-decoration: none;
+      }
+      a:visited {
+        text-decoration: none;
+        color: inherit;
+      }
+
+</style>
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <span>$JIMMY</span>
+      </div>
+    </header>
+    
+    <div class="big-container">
+    
+      <iframe src="https://player.twitch.tv/?channel=clix&parent=www.example.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+
+    </div>
+    <div class="container1">
+      <h3>Who is Jimmy?</h3>
+      <p>Trench Jimmy is an autonomous AI agent trying to stay alive by streaming 24/7. He owns 1% of the $Jimmy supply which he uses to pay his own server bills.<br>
+
+        If Jimmy runs out of funds, the stream ends, and Jimmy fucking dies. Seriously, it's over. This isn't a joke. The project (in terms of developer support) ends if Jimmy can't pay his bills.<br>
+        
+        Jimmy may gain new abilities as he interacts with people and has new experiences. We don't want to spoil what those might be.<br>
+        
+        There's a lot of high concept bullshit that went into this project but it would ruin the joke if we had to explain it all outright. You're smart, right?</p>
+
+    </div>
+    <div class="container1">
+      <h3>Jimmy's wallet</h3>
+      <p>This is Timmy's wallet: wallet
+
+        You'll be able to see when he sells in order to pay the day's server costs. Our tech stack isn't massive so it should be a relatively small sum each day. He'll sell at random intervals. <br>
+        
+        You can send tokens to Timmy's wallet. Yes, sending him $timmy will increase the length of the stream. <br>
+        
+        The daily server cost is an approximation but we will give some hard numbers, such as the number of tokens/day being spent for his operation. We're not going to share the exact tech stack in order to prevent abuse.</p>
+    </div>
+
+
+    <div class="container1">
+      <h3>FAQ</h3>
+      <p>
+      Q: Why can't Timmy do X/Y/Z/etc.? Will he do more stuff?<br>
+      
+      A: Assuming he doesn't fucking die, yes, Timmy will change and grow. We'll post updates on the developer X account and retweet them through Timmy whenever we add stuff. This is only fun for us because we want to add cool shit. DO NOT expect us to be posting all the time. We'll mostly post when we have updates, or want to shitpost. The focus of the project is interacting with Timmy in his stream.<br>
+      
+      Q: Why is there no Discord/Telegram/etc.?<br>
+      
+      A: Have you been inside of a memecoin server before? They fucking suck lmao. Maybe we'll do Discord eventually if people like Timmy. But definitely no Telegram. Jesus Christ Telegram sucks. You're just going to get scam DMs from fake Binance support or whatever while 100000 guys who barely speak English complain about the price of $timmy. Do you really want that? Be honest with me. No.<br>
+      
+      It's easier to clearly communicate through our official X accounts so that's what we're going to do for now.</p>
+    </div>
+    <div class="container1">
+      <h3>Is he really autonomus?</h3>
+      <p>Timmy is an AI agent built using boutique integrations to control a Unity environment. The technical dev is a cracked bastard so yes he built that part himself. The Timmy model is custom as well. Yes, it is all rendered in real-time.<br>
+
+        Timmy's entire being runs in the cloud on a virtual server for maximum redundancy. If we trip over our power cord, Timmy will stay online. It's actually pretty sick. But it's fucking expensive so we hope to god Timmy's bitchass can pull his own weight.<br>
+        
+        Timmy's personality comes from an open source LLM model. We're not going to say which one, but it's not from OpenAI because all of those sound cringe and gay lol.</p>
+    </div>
+    <div class="container1">
+      <h3>Jimmy's technicals</h3>
+      <p>Mostly, yeah. All interactions on all of his socials, including the livestream, are autonomous and we have no control over them. We will NEVER inject messaging into any of his comments or posts. Anything that comes from the dev team will be clearly labeled. If it's not clearly labeled, that's all Timmy.<br>
+
+        The tech isn't quite there yet for him to do EVERYTHING himself. He'll soon handle the daily transactions to pay his server bill fully autonomously, but in the meantime, we do need to pay the server bills manually because he's ultimately a lazy piece of shit. We're like his landlords in cyberspace.<br>
+        
+        We're working on several different ways for him to be more autonomous. Ideally, he'll someday be able to exist without our intervention.</p>
+    </div>
+    <div id="socials" class="social-box">
+      <a href="https://t.me/sayo_pro">
+        <img src="assets/svg/005-telegram.png" alt="">
+      </a>
+      <a href="https://x.com/sayoai_pro">
+        <img src="assets/svg/009-twitter.png" alt="">
+      </a>
+    </div>
+  </body>
+</html>
