@@ -103,7 +103,7 @@
 
       .container1{
         text-align: justify;
-        width: 98%;
+        width: 75%;
         padding: 5px 5px;
         min-height: 40px;
         background: rgba(255, 255, 255, 0.09);
@@ -113,7 +113,8 @@
         -webkit-backdrop-filter: blur(10px);
         z-index: 2;
         color: whitesmoke;
-        padding: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
         margin-bottom: 1em;
       }
 
@@ -146,6 +147,13 @@
         color: inherit;
       }
 
+      @media (max-width: 600px) {
+        .iframe {
+          width: 100%;
+          height: auto;
+        }
+       }
+
 </style>
     </style>
   </head>
@@ -157,7 +165,7 @@
     </header>
     
     <div class="big-container">
-      <iframe src="https://player.kick.com/brunenger" height="720" width="1280" frameborder="0" scrolling="no" allowfullscreen="true"></iframe>
+      <iframe class="iframe" src="https://player.kick.com/brunenger" height="720" width="1280" frameborder="0" scrolling="no" allowfullscreen="true"></iframe>
 
       <p>Stream not loading? Try
         <a href="twitch.tv/clix">Kick</a>
